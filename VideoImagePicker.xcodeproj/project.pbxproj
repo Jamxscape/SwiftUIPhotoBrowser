@@ -14,7 +14,7 @@
 		7C3D048D2649937C00842D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3D048C2649937C00842D2F /* Assets.xcassets */; };
 		7C3D04902649937C00842D2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3D048F2649937C00842D2F /* Preview Assets.xcassets */; };
 		7C45928A264E64D30075F33D /* PhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C459289264E64D30075F33D /* PhotoBrowser.swift */; };
-		7C4592FE264FFD730075F33D /* ZLPhotoBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 7C4592FD264FFD730075F33D /* ZLPhotoBrowser */; };
+		7C6010E4265F393D003F96F2 /* ZLPhotoBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6010E3265F393D003F96F2 /* ZLPhotoBrowser */; };
 		7CA77BD8265560100086EAB1 /* GifPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA77BD7265560100086EAB1 /* GifPreviewView.swift */; };
 		7CB37672264BD6D300B887AC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB37671264BD6D300B887AC /* DetailViewController.swift */; };
 		7CB37677264BF56D00B887AC /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB37676264BF56D00B887AC /* VideoPreviewView.swift */; };
@@ -44,8 +44,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CEC40302652B56100CD3CE3 /* SDWebImageSwiftUI in Frameworks */,
-				7C4592FE264FFD730075F33D /* ZLPhotoBrowser in Frameworks */,
 				7C05D400264AE7AF00878D8F /* Kingfisher in Frameworks */,
+				7C6010E4265F393D003F96F2 /* ZLPhotoBrowser in Frameworks */,
 				7CF25BBB264D3E940099F8F5 /* VideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,8 +114,8 @@
 			packageProductDependencies = (
 				7C05D3FF264AE7AF00878D8F /* Kingfisher */,
 				7CF25BBA264D3E940099F8F5 /* VideoPlayer */,
-				7C4592FD264FFD730075F33D /* ZLPhotoBrowser */,
 				7CEC402F2652B56100CD3CE3 /* SDWebImageSwiftUI */,
+				7C6010E3265F393D003F96F2 /* ZLPhotoBrowser */,
 			);
 			productName = VideoImagePicker;
 			productReference = 7C3D04852649936F00842D2F /* VideoImagePicker.app */;
@@ -147,8 +147,8 @@
 			packageReferences = (
 				7C05D3FE264AE7AF00878D8F /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				7CF25BB9264D3E940099F8F5 /* XCRemoteSwiftPackageReference "VideoPlayer" */,
-				7C4592FC264FFD730075F33D /* XCRemoteSwiftPackageReference "ZLPhotoBrowser" */,
 				7CEC402E2652B56100CD3CE3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				7C6010E2265F393D003F96F2 /* XCRemoteSwiftPackageReference "ZLPhotoBrowser" */,
 			);
 			productRefGroup = 7C3D04862649936F00842D2F /* Products */;
 			projectDirPath = "";
@@ -382,7 +382,7 @@
 				minimumVersion = 6.3.0;
 			};
 		};
-		7C4592FC264FFD730075F33D /* XCRemoteSwiftPackageReference "ZLPhotoBrowser" */ = {
+		7C6010E2265F393D003F96F2 /* XCRemoteSwiftPackageReference "ZLPhotoBrowser" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://gitee.com/jamxscape/ZLPhotoBrowser";
 			requirement = {
@@ -414,9 +414,9 @@
 			package = 7C05D3FE264AE7AF00878D8F /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-		7C4592FD264FFD730075F33D /* ZLPhotoBrowser */ = {
+		7C6010E3265F393D003F96F2 /* ZLPhotoBrowser */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7C4592FC264FFD730075F33D /* XCRemoteSwiftPackageReference "ZLPhotoBrowser" */;
+			package = 7C6010E2265F393D003F96F2 /* XCRemoteSwiftPackageReference "ZLPhotoBrowser" */;
 			productName = ZLPhotoBrowser;
 		};
 		7CEC402F2652B56100CD3CE3 /* SDWebImageSwiftUI */ = {
